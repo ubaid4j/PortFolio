@@ -350,21 +350,6 @@
 					<artifactId>maven-war-plugin</artifactId>
 					<version>3.2.3</version>					
 				</plugin>
-
-				<plugin>
-				    <groupId>org.apache.tomcat.maven</groupId>
-				    <artifactId>tomcat8-maven-plugin</artifactId>
-				    <version>3.0-r1756463</version>
-		            <configuration>
-		                <url>http://68.183.191.185:8080/manager/text</url>
-		                <server>TomcatServer</server>
-		                <path>/ubaidsPF</path>
-		                <username>admin</username>
-		                <password>admin</password>
-		                <update>true</update>
-		            </configuration>
-		         </plugin> 
-
 			</plugins>
 		</pluginManagement>
 
